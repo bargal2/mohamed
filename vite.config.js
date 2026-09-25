@@ -5,6 +5,6 @@ import tailwindcss from '@tailwindcss/vite'
 // https://vite.dev/config/
 export default defineConfig({
   plugins: [react(), tailwindcss(),],
-  base: process.env.VERCEL ? '/' : '/mohamed/',
+  base: process.env.VERCEL ? '/' : '/art1/',
   
 })
